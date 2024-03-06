@@ -9,7 +9,9 @@ export default function NotFound(){
     return(
         <div>
     <h1  className={Styles.erro}>Erro! Página não encontrada</h1>
-    <Link className={Styles.retorno} href="/">Retornar para Home</Link>
+   
+    <a href="/" className={Styles.retorno}>Retornar para Home</a>
+   
     </div>
     );
 };

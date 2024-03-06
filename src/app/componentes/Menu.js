@@ -8,7 +8,7 @@ export default function menu(){
             <Image width={100} height={100} src={"https://www.ifms.edu.br/marcaifms.png"}/>
             <Image width={100} height={100} src={"https://moodle.org/theme/moodleorg/pix/moodle_logo_TM.svg"}/>
     <nav>
-        <ul>
+        <ul className={Styles.erro}>
             <Link href="/">
                 <li>Home</li>
             </Link>
