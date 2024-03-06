@@ -1,0 +1,12 @@
+.erro{
+    color: #06cb06;
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+}
+.retorno{
+    display: flex;
+    justify-content: center;
+    font-size: 23px;
+
+}
